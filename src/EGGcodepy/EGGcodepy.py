@@ -3,7 +3,7 @@ class Egg:
         '''
         Encode plaintext to egg
         '''
-        egg = ''.join(format(ord(i), '08b') for i in plaintext)
+        egg = ''.join(format(ord(i), '08b') for i in plaintext) # Formats plain text into binary
 
         egg_out = ""
         for e in egg:
